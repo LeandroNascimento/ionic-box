@@ -12,7 +12,11 @@ To install, download and install [Vagrant](https://www.vagrantup.com/downloads.h
 
 Once Vagrant and VirtualBox are installed, you can download the latest release of this GitHub repo, and unzip it. `cd` into the unzipped folder and run:
 
+
+
 ```bash
+$vagrant box add ionic trusty-server-cloudimg-i386-vagrant-disk1.box
+$vagrant init ionic
 $ vagrant up
 $ vagrant ssh
 ```
