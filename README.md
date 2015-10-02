@@ -5,7 +5,7 @@ Ionic Box is a ready-to-go hybrid development environment for building mobile ap
 
 For iOS developers, Ionic Box won't do much for you right now unless you are having trouble installing the Android SDK, and Ionic Box cannot be used for iOS development for a variety of legal reasons (however, the `ionic package` command in beta will soon fix that).
 
-### Installation
+### Installation with box local
 
 
 To install, download and install [Vagrant](https://www.vagrantup.com/downloads.html) for your platform, then download and install [VirtualBox](http://virtualbox.org/).
