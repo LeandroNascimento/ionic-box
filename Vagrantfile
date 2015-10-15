@@ -5,9 +5,9 @@
 VAGRANTFILE_API_VERSION = "2"
 
 $init = <<SCRIPT
-sudo /home/vagrant/android-sdk-linux/platform-tools/adb kill-server
-sudo /home/vagrant/android-sdk-linux/platform-tools/adb start-server
-sudo /home/vagrant/android-sdk-linux/platform-tools/adb devices
+sudo adb kill-server
+sudo adb start-server
+sudo adb devices
 SCRIPT
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
